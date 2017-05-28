@@ -27,7 +27,7 @@ Search for solutions
  
 ## Technical tools: 
 
-**Node.js + MongoDB** for Website design
+**[Node.js](https://nodejs.org/en/) + [MongoDB](https://www.mongodb.com/)** for Website design
 
 **Mathjax using LaTex** for typing of math equaltions 
  
