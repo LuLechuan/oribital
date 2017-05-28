@@ -54,3 +54,14 @@ Search for updated solutions
 
 * **Week 4**: Testing and debugging 
  
+### Project Log 
+
+* **S/N**: Event Date hours Remarks
+* **1**: Lift-off Day 1 08-05-2017 9 Lift-off Day 1 
+* **2**: Lift-off Day 2 09-05-2017 9 Lift-off Day 2 
+* **3**: Team meeting and planning 10-05-2017 16-05-2017 6 Confirmation of ideas  
+* **4**: Learning of languages and tools 10-05-17 to 25-05-17 20 Learning of HTML, CSS, JavaScript etc. 
+* **5**: Programming at home 26-05-17 4 1) Testing of implementing mathjax on website 2) Developing database models 
+* **6**: Team meeting 28-05-17 2 Working on milestone 1 
+* **Total**: 50 
+ 
