@@ -1,10 +1,10 @@
 # Project Orbital 2017: Creating a Maths PYP Web App
 
-Team ID: CS with Maths 
+**Team ID**: CS with Maths 
  
-Proposed Level of Achievement: Gemini 
+**Proposed Level of Achievement**: Gemini 
  
-Target Audience: All NUS students who are taking Maths modules 
+**Target Audience**: All NUS students who are taking Maths modules 
  
 ## Motivation
 
@@ -27,29 +27,29 @@ Search for solutions
  
 ## Technical tools: 
 
-Node.js + MongoDB for Website design
+**Node.js + MongoDB** for Website design
 
-Mathjax using LaTex for typing of math equaltions 
+**Mathjax using LaTex** for typing of math equaltions 
  
 ## Plan:  
 
 ### June: 
 
-Week 1: Confirmation of tools and data sources
+**Week 1**: Confirmation of tools and data sources
 
-Week 2: Launching of first prototype with minimum features – Allowing uploading of solutions
+**Week 2**: Launching of first prototype with minimum features – Allowing uploading of solutions
 
-Week 3: Building the function of writing maths equations using mathjax 
+**Week 3**: Building the function of writing maths equations using mathjax 
 
-Week 4: Testing and debugging 
+**Week 4**: Testing and debugging 
 
 ### July: 
 
-Week 1: Building the function of dragging and dropping 
+**Week 1**: Building the function of dragging and dropping 
 
-Week 2: Testing and debugging 
+**Week 2**: Testing and debugging 
 
-Week 3: Implementing advisors' and peer members' suggestions 
+**Week 3**: Implementing advisors' and peer members' suggestions 
 
-Week 4: Testing and debugging 
+**Week 4**: Testing and debugging 
  
