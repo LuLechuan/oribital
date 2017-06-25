@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Components - Message</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.2.3/css/bulma.css">
+	<style type="text/css">body { padding-top: 40px; }</style>
+</head>
+
+<body>
+
+	<h1>Mathematic Society</h1>
+	<br>
+	<h2>Pass Semester Solutions</h2>
+	<br>
+	<h3>Module1 Year2016/17 Semester2</h3>
+
+	<br>
+	<a href="math_solution_checking.html">back</a>
+	<br>
+	<div id="root" class="container">
+		<tabs>
+			<tab name="Question 1" :selected="true">
+				<h1>Here is the content for Question 1.</h1>
+			</tab>
+
+			<tab name="Question 2">
+				<h1>Here is the content for Question 2.</h1>
+			</tab>
+
+			<tab name="Question 3">
+				<h1>Here is the content for Question 3.</h1>
+			</tab>
+
+			<tab name="Question 4">
+				<h1>Here is the content for Question 4.</h1>
+			</tab>
+
+			<tab name="Question 5">
+				<h1>Here is the content for Question 5.</h1>
+			</tab>
+
+			<tab name="Question 6">
+				<h1>Here is the content for Question 6.</h1>
+			</tab>
+		</tabs>
+	</div>
+
+	<br>
+
+	<div id="child">
+			<answers :list="answers"></answers>
+
+		<input id="input" type="text">
+		<button id="button">Add Answer</button>
+	</div>
+
+	<template id="answers-template">
+
+		<ul v-show="list.length">
+			<li v-for="answer in list">
+				{{ answer }}
+				<strong @click="deleteAnswer(answer)">x</strong>
+			</li>
+		</ul>
+
+		<p v-else>No answers yet!</p>
+
+	</template>
+
+	<script src="https://unpkg.com/vue@2.3.4"></script>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.8/vue.js"></script>
+
+	<script src="Mod1_1617.js"></script>
+
+	<script src="answers.js"></script>
+
+</body>
+</html>
